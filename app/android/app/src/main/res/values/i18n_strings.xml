@@ -289,8 +289,8 @@
     <string name="service_running">Local DSH is running</string>
     <string name="service_stopping">Stopping…</string>
     <string name="service_title">Local DSH</string>
-    <string name="service_stop_phone">Stop actions</string>
-    <string name="service_stop">Stop</string>
+    <string name="service_stop_phone">Stop phone control</string>
+    <string name="service_stop">Stop engine</string>
     <string name="service_package_checksum_failed">Runtime verification failed (SHA-256 mismatch). Reinstall the app</string>
     <string name="service_storage_insufficient">Not enough storage: about %1$s MB needed, %2$s MB available</string>
     <!-- share -->
@@ -302,6 +302,9 @@
     <!-- tile -->
     <string name="tile_new_chat_label">New chat</string>
     <string name="a11y_keeper_grant_failed">Authorization failed. You can use the computer command instead.</string>
+    <string name="a11y_keeper_grant_unavailable">The authorization request could not be completed. Check the authorization channel status.</string>
+    <string name="a11y_keeper_grant_denied">The system denied this request to grant the permission needed to restore accessibility automatically.</string>
+    <string name="a11y_keeper_grant_not_acquired">The authorization request was acknowledged, but the permission needed to restore accessibility automatically is still not granted.</string>
     <string name="a11y_keeper_needs_setup">Set up Shizuku or wireless debugging first.</string>
     <string name="background_root_legacy_client">Root was selected. Use an updated interface to manage it, or turn phone control off.</string>
     <string name="background_root_starting">Waiting for root authorization</string>
